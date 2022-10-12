@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Use the getPreviousHandicap on-demand script include to retreve the players handicap and  populate the handicap field </description>
+        <field>u_golfer</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Round Populate Handicap</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '' || newValue == oldValue) {
+      return;
+   }
+	//var golferRef = g_form.getValue('u_golfer');
+	//g_form.setValue('journal', g_scratchpad.sys_id);
+	g_form.getReference('u_golfer', doCallback);
+	
+	function doCallback(caller){
+		var user_name = caller.getValue('user_name');
+		//g_form.setValue('journal', user_name);
+		var handicap = getPreviousHandicap(user_name);
+		alert('ferferfer');
+		g_form.setValue('journal', handicap);
+	}
+	
+	
+	
+	//var handicap = getPreviousHandicap(newValue);
+	//g_form.setValue('journal', handicap);
+	//if (handicap != false) {
+		
+	//}
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 22:44:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd6096a497e2111016901c800153afb7</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Round Populate Handicap</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_script_client_fd6096a497e2111016901c800153afb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-12 05:10:19</sys_updated_on>
+        <table>x_898924_rounds_round</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_script_client_fd6096a497e2111016901c800153afb7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Use the getPreviousHandicap on-demand script include to retreve the players handicap and  populate the handicap field &lt;/description&gt;&lt;field&gt;u_golfer&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Round Populate Handicap&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '' || newValue == oldValue) {
+      return;
+   }
+	//var golferRef = g_form.getValue('u_golfer');
+	//g_form.setValue('journal', g_scratchpad.sys_id);
+	g_form.getReference('u_golfer', doCallback);
+	
+	function doCallback(caller){
+		var user_name = caller.getValue('user_name');
+		//g_form.setValue('journal', user_name);
+		var handicap = getPreviousHandicap(user_name);
+		alert('ferferfer');
+		g_form.setValue('journal', handicap);
+	}
+	
+	
+	
+	//var handicap = getPreviousHandicap(newValue);
+	//g_form.setValue('journal', handicap);
+	//if (handicap != false) {
+		
+	//}
+	
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-11 22:44:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fd6096a497e2111016901c800153afb7&lt;/sys_id&gt;&lt;sys_mod_count&gt;41&lt;/sys_mod_count&gt;&lt;sys_name&gt;Round Populate Handicap&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rounds" source="x_898924_rounds"&gt;da3ba8149722111016901c800153af5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rounds"&gt;da3ba8149722111016901c800153af5e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fd6096a497e2111016901c800153afb7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-12 05:10:19&lt;/sys_updated_on&gt;&lt;table&gt;x_898924_rounds_round&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-190429411</payload_hash>
+        <record_name>Round Populate Handicap</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 05:10:19</sys_created_on>
+        <sys_id>068e63a0976a111016901c800153af4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ca99c6d80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-12 05:10:19</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4e8e63a03f6a111051303bc6c4f5094a</update_guid>
+        <update_guid_history>4e8e63a03f6a111051303bc6c4f5094a:-190429411,0ee62ba8a92a111030e016246ce8fca2:-1951345558,2291e764a22a1110031768a10b326804:-190429411,8f616764302a11102fb889a54eacf61a:-1439377698,0daf93e0912a11105a3b302c93c482f3:-1967864524,1a4c1fecbae6111049179bc9d799657e:-1089984155,e1ead3ec56e611107da25500eb15a043:1896268250,7a3a9f2cf0e6111067a443083c03a17e:-1898372578,2cd99f2c20e61110ed07bb1050bd4a7a:616630136,16f797e899e6111091cda59c1f30be7b:866471700,7e77dfa898e61110dfba656401b15fbb:-2083576140,7357dfa869e61110b51d507a640696b7:79570790,95e6db6805e611106ac7b5dec1ad1bc7:672990142,54961fa8e4e61110cbbcea671fb8659b:-1651320065,62669b6839e61110f275ff4191eafa38:155557840,2c359b68b4e61110a0b95aeb04109930:1404477813,02e4d3682ce611104f1badb8adb5f677:-1134057421,c3b493681ae6111082e6f6fc5314008e:47291618,ce845fa4b1e61110c407004cce3e4f39:-717684971,67029ba4bee611101bf92db2ccfe4091:1304078822,b7ef03e093e61110873001aa57e917fb:-1380302311,714e0ba08ae61110abf7306362648f16:2053964494,bd3e83a062e6111096669777fa6461ae:966944395,d09dc7a028e6111009a52f3784ca5d15:-1186003744,857d03a0ece611105ebcc06563484b21:-2069532158,754d0b6033e611101615505337d07559:95014129,072d0b607fe61110454a4da5af3a2d54:1083202878,4d0b47acd7a61110eaeb3fdeaa40ec52:1540244472,47c8cf2c81a6111004d89167bc761b06:-2058566939,74b7cbe848a61110868ef1f1e02a7540:-143661991,b0640ba48aa611104db201891e46a24a:2081699064,fdd20328f9a61110e48d54388f4f08af:1952002661,8b920fe4d3a6111083751e790ba3dd76:1335051481,7b0107a489a6111017890dd33bb1b076:147962783,2a1db6a0e2a6111072d4453558dbb3ab:-1299356703,1ca666ac3e261110b494e37568d6e8f6:1445539937,7083a6e89926111096557332cad51f7d:531787672,1c8dd6e06d261110510bdbc911e91d9e:-1957193058,705b9ee076261110b6707cf68a03b80c:-975749244,e97ada60ca261110cd1944656d91d1d0:-1957193058,3819da608b26111051647cf4eabdb668:-452253240,30469e2ce1e2111039dd56e692409dae:-460831114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 05:22:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>45beed0dc0a24028a2b274dbfab9a599</sys_id>
+        <sys_metadata>fd6096a497e2111016901c800153afb7</sys_metadata>
+        <sys_name>Round Populate Handicap</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent display_value="Round">d965dd1497e2111016901c800153af9f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_script_client_fd6096a497e2111016901c800153afb7</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fd6096a497e2111016901c800153afb7">068e63a0976a111016901c800153af4b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

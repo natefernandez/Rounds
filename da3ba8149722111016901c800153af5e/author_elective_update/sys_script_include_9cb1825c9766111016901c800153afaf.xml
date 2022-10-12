@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_898924_rounds.RoundUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>RoundUtils</name>
+        <script><![CDATA[var RoundUtils = Class.create();
+RoundUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getDateTime: function() {
+		var rightnow = new GlideDateTime();
+		// get date and time value in the current users display format and time zone
+		var currentDateAndTime = rightnow.getDisplayValue();
+		return currentDateAndTime;
+	},
+
+    type: 'RoundUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 02:37:09</sys_created_on>
+        <sys_id>9cb1825c9766111016901c800153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RoundUtils</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_script_include_9cb1825c9766111016901c800153afaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-11 02:37:09</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_script_include_9cb1825c9766111016901c800153afaf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_898924_rounds.RoundUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;RoundUtils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var RoundUtils = Class.create();
+RoundUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getDateTime: function() {
+		var rightnow = new GlideDateTime();
+		// get date and time value in the current users display format and time zone
+		var currentDateAndTime = rightnow.getDisplayValue();
+		return currentDateAndTime;
+	},
+
+    type: 'RoundUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-11 02:37:09&lt;/sys_created_on&gt;&lt;sys_id&gt;9cb1825c9766111016901c800153afaf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;RoundUtils&lt;/sys_name&gt;&lt;sys_package display_value="Rounds" source="x_898924_rounds"&gt;da3ba8149722111016901c800153af5e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Rounds"&gt;da3ba8149722111016901c800153af5e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_9cb1825c9766111016901c800153afaf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-11 02:37:09&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>20877661</payload_hash>
+        <record_name>RoundUtils</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 02:37:09</sys_created_on>
+        <sys_id>70e1c21097a6111016901c800153afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c4e732c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-11 02:37:09</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b8e1c21061a61110dae0ea5796852ad7</update_guid>
+        <update_guid_history>b8e1c21061a61110dae0ea5796852ad7:20877661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 02:43:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>9aaa77fc2131415e9f309aacfdbea8e1</sys_id>
+        <sys_metadata>9cb1825c9766111016901c800153afaf</sys_metadata>
+        <sys_name>RoundUtils</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_script_include_9cb1825c9766111016901c800153afaf</sys_update_name>
+        <sys_update_version display_value="sys_script_include_9cb1825c9766111016901c800153afaf">70e1c21097a6111016901c800153afd8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

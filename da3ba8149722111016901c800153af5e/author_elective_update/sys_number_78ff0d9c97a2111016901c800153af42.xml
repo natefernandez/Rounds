@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_898924_rounds_clubs">x_898924_rounds_clubs</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CLB</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 22:58:59</sys_created_on>
+        <sys_id>78ff0d9c97a2111016901c800153af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CLB</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_number_78ff0d9c97a2111016901c800153af42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 22:58:59</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_number_78ff0d9c97a2111016901c800153af42</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_898924_rounds_clubs">x_898924_rounds_clubs</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>CLB</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-10 22:58:59</sys_created_on><sys_id>78ff0d9c97a2111016901c800153af42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CLB</sys_name><sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package><sys_policy/><sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope><sys_update_name>sys_number_78ff0d9c97a2111016901c800153af42</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-10 22:58:59</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-786741988</payload_hash>
+        <record_name>CLB</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 22:58:59</sys_created_on>
+        <sys_id>78ff0d9c97a2111016901c800153af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c41f765a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 22:58:59</sys_updated_on>
+        <type>Number</type>
+        <update_guid>b0ff0d9ce4a211102bbb2e66f27fe070</update_guid>
+        <update_guid_history>b0ff0d9ce4a211102bbb2e66f27fe070:-786741988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 23:03:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>3e6c9e1cf63e48d2acb81c70a57b4d24</sys_id>
+        <sys_metadata>78ff0d9c97a2111016901c800153af42</sys_metadata>
+        <sys_name>CLB</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent display_value="">3eaf459c97a2111016901c800153af35</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_number_78ff0d9c97a2111016901c800153af42</sys_update_name>
+        <sys_update_version display_value="sys_number_78ff0d9c97a2111016901c800153af42">78ff0d9c97a2111016901c800153af70</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

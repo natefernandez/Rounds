@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_898924_rounds.getPreviousHandicap</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>On demand script include: return the golfers handicap from the last round if it exists, else return false</description>
+        <name>getPreviousHandicap</name>
+        <script><![CDATA[function getPreviousHandicap(uniqueVal) {
+	
+	var currentUser = gs.getUser()();
+	var newUser = currentUser.getUserByID(uniqueVal);
+	var userSysID = newUser.getID();
+	gs.debug('here', userSysID);
+	
+	// Create GlideDateTime objects for round table
+	var myObj = new GlideRecord('x_898924_rounds_round');
+	// If the timeStart is before timeEnd, return true, else return false
+	myObj.addQuery('u_golfer', userSysID);
+	// execute the query
+	myObj.query();
+	return myObj;
+	// if user has previous rounds, return the handicap from the first record in GlideRecord
+	/*
+	if(myObj.next()){
+		alert(myObj);
+		return myObj.u_handicap;
+	} else {
+		return false;
+	}
+	*/
+	
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 22:18:35</sys_created_on>
+        <sys_id>110b4e2497e2111016901c800153af67</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>getPreviousHandicap</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_script_include_110b4e2497e2111016901c800153af67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-12 05:15:00</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_script_include_110b4e2497e2111016901c800153af67</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_898924_rounds.getPreviousHandicap&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;On demand script include: return the golfers handicap from the last round if it exists, else return false&lt;/description&gt;&lt;name&gt;getPreviousHandicap&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function getPreviousHandicap(uniqueVal) {
+	
+	var currentUser = gs.getUser()();
+	var newUser = currentUser.getUserByID(uniqueVal);
+	var userSysID = newUser.getID();
+	gs.debug('here', userSysID);
+	
+	// Create GlideDateTime objects for round table
+	var myObj = new GlideRecord('x_898924_rounds_round');
+	// If the timeStart is before timeEnd, return true, else return false
+	myObj.addQuery('u_golfer', userSysID);
+	// execute the query
+	myObj.query();
+	return myObj;
+	// if user has previous rounds, return the handicap from the first record in GlideRecord
+	/*
+	if(myObj.next()){
+		alert(myObj);
+		return myObj.u_handicap;
+	} else {
+		return false;
+	}
+	*/
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-11 22:18:35&lt;/sys_created_on&gt;&lt;sys_id&gt;110b4e2497e2111016901c800153af67&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;getPreviousHandicap&lt;/sys_name&gt;&lt;sys_package display_value="Rounds" source="x_898924_rounds"&gt;da3ba8149722111016901c800153af5e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Rounds"&gt;da3ba8149722111016901c800153af5e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_110b4e2497e2111016901c800153af67&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-12 05:15:00&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-352315636</payload_hash>
+        <record_name>getPreviousHandicap</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 05:15:00</sys_created_on>
+        <sys_id>ea9feba0976a111016901c800153af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183ca9e12260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-12 05:15:00</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>269feba0626a1110ecd3d44705088a29</update_guid>
+        <update_guid_history>269feba0626a1110ecd3d44705088a29:-352315636,f6dea7a0fd6a1110eac9d11d41136ba8:1405141427,708eaf20a36a11105e4a2a43eecfc29c:1968340526,427e2b60b46a1110ac9952a6999606db:-1276421823,f6e6eba89f2a11107a2b1547c98b27c3:514413708,ad916f64cb2a111039b6ab4cecfdfad3:-2138390855,1f512364062a111094bc697188d0f0ef:1248170453,e6112764ee2a1110a7ebfc101630b2db:-1720417086,5c016364282a111045adf09ea9ac9b28:774214994,3760a724f72a11106b3cfa2fa4a8d661:801094266,c320e3e09d2a111049a9371efed8b204:-1580132927,b2ff5f201e2a111053452824c58e1ece:-145049104,00af9be0ff2a111001906d6538167a26:1144484934,410c9feca1e611101833a77c1d2b8c78:-1912458094,5bc91b6ca1e61110b16a489a22064888:-392949350,b602976452e6111024f6ef75ebb67f06:501074432,01809fe0b7e61110fce3d1056a3506bb:-1770330833,3adfc72437e61110afd06471c2d70c41:-1009728307,3c3e0ba0b7e6111017b714189e633511:2076224140,69740b28a5a6111075443559336dd9af:-1269099798,0e1147a4d8a6111079b6bd1b1973197a:1939509083,affc36ecd9661110ff95a9c11ff37a4e:705193132,ac7326e8bb261110f223b0fdde14a7f0:1366857230,39f5922cd1e21110e82b12e0c9ce174a:-142111868,1c805a6854e211104cd3c8ae769122b4:308450113,87405ae445e21110840a489ef3e660da:-1348861703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 05:22:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>5c543fd3942a4ea0a60beebdd60b5440</sys_id>
+        <sys_metadata>110b4e2497e2111016901c800153af67</sys_metadata>
+        <sys_name>getPreviousHandicap</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_script_include_110b4e2497e2111016901c800153af67</sys_update_name>
+        <sys_update_version display_value="sys_script_include_110b4e2497e2111016901c800153af67">ea9feba0976a111016901c800153af29</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

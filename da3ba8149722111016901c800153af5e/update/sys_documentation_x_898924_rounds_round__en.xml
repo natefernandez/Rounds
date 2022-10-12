@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Round" language="en" table="x_898924_rounds_round">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Round</label>
+            <language>en</language>
+            <name>x_898924_rounds_round</name>
+            <plural>Rounds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-10 23:25:30</sys_created_on>
+            <sys_name>Round</sys_name>
+            <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+            <sys_update_name>sys_documentation_x_898924_rounds_round__en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

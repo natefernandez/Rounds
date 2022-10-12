@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 23:25:29</sys_created_on>
+        <sys_id>c506195497e2111016901c800153afdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_898924_rounds_round.x_898924_rounds.round_user</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_security_acl display_value="x_898924_rounds_round">cd06195497e2111016901c800153afda</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c506195497e2111016901c800153afdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 23:25:29</sys_updated_on>
+        <sys_user_role display_value="x_898924_rounds.round_user" name="x_898924_rounds.round_user">0506dd1497e2111016901c800153afb5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_security_acl_role_c506195497e2111016901c800153afdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-10 23:25:29</sys_created_on><sys_id>c506195497e2111016901c800153afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_898924_rounds_round.x_898924_rounds.round_user</sys_name><sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package><sys_policy/><sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope><sys_security_acl display_value="x_898924_rounds_round">cd06195497e2111016901c800153afda</sys_security_acl><sys_update_name>sys_security_acl_role_c506195497e2111016901c800153afdd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-10 23:25:29</sys_updated_on><sys_user_role display_value="x_898924_rounds.round_user" name="x_898924_rounds.round_user">0506dd1497e2111016901c800153afb5</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1496345983</payload_hash>
+        <record_name>x_898924_rounds_round.x_898924_rounds.round_user</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 23:25:29</sys_created_on>
+        <sys_id>4906195497e2111016901c800153afdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c437b93d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 23:25:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>81061954ade21110f1b1b78593db0bdf</update_guid>
+        <update_guid_history>81061954ade21110f1b1b78593db0bdf:1496345983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_898924_rounds_round.x_898924_rounds.round_user">284374b4976e111016901c800153af67</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 10:10:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6659fe2757a04889b8c7adfe8873b499</sys_id>
+        <sys_metadata>c506195497e2111016901c800153afdd</sys_metadata>
+        <sys_name>x_898924_rounds_round.x_898924_rounds.round_user</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent display_value="x_898924_rounds_round">cd06195497e2111016901c800153afda</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c506195497e2111016901c800153afdd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c506195497e2111016901c800153afdd">4906195497e2111016901c800153afdf</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

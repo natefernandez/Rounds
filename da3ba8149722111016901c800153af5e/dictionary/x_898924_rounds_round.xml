@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="d965dd1497e2111016901c800153af9f" label="Round" max_length="40" name="x_898924_rounds_round" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="requested" label="Approval" max_length="40" name="approval" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not_yet_requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Journal" max_length="40" name="journal" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Email Round" max_length="40" name="u_boolean_email" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="encode_utf8=false" display="true" label="Golfer" mandatory="true" max_length="32" name="u_golfer" reference="sys_user" type="reference"/>
+        <element label="Handicap" mandatory="true" max_length="40" name="u_handicap" type="integer"/>
+        <element label="Hole 1 Strokes" mandatory="true" max_length="40" name="u_hole1_stroke" type="integer"/>
+        <element label="Hole 2 Strokes" mandatory="true" max_length="40" name="u_hole2_stroke" type="integer"/>
+        <element label="Hole 3 Strokes" mandatory="true" max_length="40" name="u_hole3_stroke" type="integer"/>
+        <element label="Hole 4 Strokes" mandatory="true" max_length="40" name="u_hole4_stroke" type="integer"/>
+        <element label="Hole 5 Strokes" mandatory="true" max_length="40" name="u_hole5_stroke" type="integer"/>
+        <element label="Hole 6 Strokes" mandatory="true" max_length="40" name="u_hole6_stroke" type="integer"/>
+        <element label="Hole 7 Strokes" mandatory="true" max_length="40" name="u_hole7_stroke" type="integer"/>
+        <element label="Hole 8 Strokes" mandatory="true" max_length="40" name="u_hole8_stroke" type="integer"/>
+        <element label="Hole 9 Strokes" mandatory="true" max_length="40" name="u_hole9_stroke" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Time Start" mandatory="true" max_length="40" name="u_round_start" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 1" mandatory="true" max_length="32" name="u_teebox_club_1" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 2" mandatory="true" max_length="32" name="u_teebox_club_2" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 3" mandatory="true" max_length="32" name="u_teebox_club_3" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 4" mandatory="true" max_length="32" name="u_teebox_club_4" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 5" mandatory="true" max_length="32" name="u_teebox_club_5" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 6" mandatory="true" max_length="32" name="u_teebox_club_6" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 7" mandatory="true" max_length="32" name="u_teebox_club_7" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 8" mandatory="true" max_length="32" name="u_teebox_club_8" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="encode_utf8=false" label="Tee Box Club 9" mandatory="true" max_length="32" name="u_teebox_club_9" reference="x_898924_rounds_golf_club" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Time End" mandatory="true" max_length="40" name="u_time_end" type="glide_date_time"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_golfer"/>
+        </index>
+        <index name="index3">
+            <element name="u_teebox_club_1"/>
+        </index>
+        <index name="index4">
+            <element name="u_teebox_club_2"/>
+        </index>
+        <index name="index5">
+            <element name="u_teebox_club_3"/>
+        </index>
+        <index name="index6">
+            <element name="u_teebox_club_4"/>
+        </index>
+        <index name="index7">
+            <element name="u_teebox_club_5"/>
+        </index>
+        <index name="index8">
+            <element name="u_teebox_club_6"/>
+        </index>
+        <index name="index9">
+            <element name="u_teebox_club_7"/>
+        </index>
+        <index name="index10">
+            <element name="u_teebox_club_8"/>
+        </index>
+        <index name="index11">
+            <element name="u_teebox_club_9"/>
+        </index>
+    </element>
+</database>

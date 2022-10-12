@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_898924_rounds.GetPreviousHandicap</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Script Include to return an query round table and return the golfers last record handicap field. The calling client-side script passes the sys_id from the given golfer</description>
+        <name>GetPreviousHandicap</name>
+        <script><![CDATA[var GetPreviousHandicap = Class.create();
+GetPreviousHandicap.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getHandicap: function() {
+
+		var userID = this.getParameter('sysparm_user');
+		var gr = new GlideRecord('x_898924_rounds_round');
+		// Create encoded string
+		var encodedQueryString = 'u_golfer='+userID+'^approval=approved';
+		gr.addQuery(encodedQueryString);
+		// run query against table with one added query
+		gr.query();
+		// if record(s) exist then return the first ones (most recent) handicap attribute
+		if(gr.next()) {
+			return gr.u_handicap + '';
+		}
+		
+	},
+
+	type: 'GetPreviousHandicap'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 07:17:54</sys_created_on>
+        <sys_id>076b087c97aa111016901c800153af13</sys_id>
+        <sys_name>GetPreviousHandicap</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_script_include_076b087c97aa111016901c800153af13</sys_update_name>
+    </sys_script_include>
+</record_update>

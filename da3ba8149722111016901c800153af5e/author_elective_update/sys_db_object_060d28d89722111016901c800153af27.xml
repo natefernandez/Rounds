@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>package_private</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>New Round</label>
+        <live_feed_enabled>true</live_feed_enabled>
+        <name>x_898924_rounds_new_round</name>
+        <number_ref display_value="RD">5a0f245c9722111016901c800153afc0</number_ref>
+        <provider_class/>
+        <read_access>false</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 20:35:09</sys_created_on>
+        <sys_id>060d28d89722111016901c800153af27</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Round</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_db_object_060d28d89722111016901c800153af27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 20:35:11</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_898924_rounds.new_round_user" name="x_898924_rounds.new_round_user">7d0f245c9722111016901c800153af1e</user_role>
+        <ws_access>false</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_db_object_060d28d89722111016901c800153af27</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>package_private</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>true</is_extendable><label>New Round</label><live_feed_enabled>true</live_feed_enabled><name>x_898924_rounds_new_round</name><number_ref display_value="RD">5a0f245c9722111016901c800153afc0</number_ref><provider_class/><read_access>false</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-10 20:35:09</sys_created_on><sys_id>060d28d89722111016901c800153af27</sys_id><sys_mod_count>1</sys_mod_count><sys_name>New Round</sys_name><sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package><sys_policy/><sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope><sys_update_name>sys_db_object_060d28d89722111016901c800153af27</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-10 20:35:11</sys_updated_on><update_access>false</update_access><user_role display_value="x_898924_rounds.new_round_user" name="x_898924_rounds.new_round_user">7d0f245c9722111016901c800153af1e</user_role><ws_access>false</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>697471049</payload_hash>
+        <record_name>New Round</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 20:35:11</sys_created_on>
+        <sys_id>d60f245c9722111016901c800153afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c39bcd9b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 20:35:11</sys_updated_on>
+        <type>Table</type>
+        <update_guid>120f245cde22111089282e98969c00c7</update_guid>
+        <update_guid_history>120f245cde22111089282e98969c00c7:697471049,5e0f245c83221110acb148c5a38bba5a:-208739037</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 22:49:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>46bf4d98ddab4d649961ca7ba2f8ba39</sys_id>
+        <sys_metadata>060d28d89722111016901c800153af27</sys_metadata>
+        <sys_name>New Round</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_db_object_060d28d89722111016901c800153af27</sys_update_name>
+        <sys_update_version display_value="sys_db_object_060d28d89722111016901c800153af27">d60f245c9722111016901c800153afc7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

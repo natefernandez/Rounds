@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_898924_rounds.isTimeStartBeforeTimeEnd</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>On demand script include: If the timeStart is before timeEnd, return true, else return false</description>
+        <name>isTimeStartBeforeTimeEnd</name>
+        <script><![CDATA[function isTimeStartBeforeTimeEnd(strStart, strEnd) {
+	// Create GlideDateTime objects for the time start and time end
+	var timeStart = new GlideDateTime(strStart);
+	var timeEnd = new GlideDateTime(strEnd);
+	// If the timeStart is before timeEnd, return true, else return false
+	if (timeStart.before(timeEnd)) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 03:33:02</sys_created_on>
+        <sys_id>e436ce9097a6111016901c800153af2a</sys_id>
+        <sys_name>isTimeStartBeforeTimeEnd</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_script_include_e436ce9097a6111016901c800153af2a</sys_update_name>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 20:50:18</sys_created_on>
+        <sys_id>ad1c71e497a2111016901c800153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddress.admin</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_security_acl display_value="GetEmailAddress">e11c35a497a2111016901c800153af0c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ad1c71e497a2111016901c800153aff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-11 20:50:18</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_security_acl_role_ad1c71e497a2111016901c800153aff4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-11 20:50:18</sys_created_on><sys_id>ad1c71e497a2111016901c800153aff4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GetEmailAddress.admin</sys_name><sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package><sys_policy/><sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope><sys_security_acl display_value="GetEmailAddress">e11c35a497a2111016901c800153af0c</sys_security_acl><sys_update_name>sys_security_acl_role_ad1c71e497a2111016901c800153aff4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-11 20:50:18</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1074705534</payload_hash>
+        <record_name>GetEmailAddress.admin</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 20:50:18</sys_created_on>
+        <sys_id>f91c71e497a2111016901c800153aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c8d002ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-11 20:50:18</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>351c71e43fa21110837bc93620e4ddf7</update_guid>
+        <update_guid_history>351c71e43fa21110837bc93620e4ddf7:-1074705534</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GetEmailAddress.admin">b7d4b038976e111016901c800153afe5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 10:17:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>101143d4b97d4d0e8821003d69205a64</sys_id>
+        <sys_metadata>ad1c71e497a2111016901c800153aff4</sys_metadata>
+        <sys_name>GetEmailAddress.admin</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent display_value="GetEmailAddress">e11c35a497a2111016901c800153af0c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ad1c71e497a2111016901c800153aff4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ad1c71e497a2111016901c800153aff4">f91c71e497a2111016901c800153aff7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

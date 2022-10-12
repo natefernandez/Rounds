@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Use the GetEmail Address Script Include to retrieve the golfers email address from the database and populate the email field if golfer changes and u_boolean_email is true</description>
+        <field>u_golfer</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Round Populate Email Field Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	// Also do not run it they did not select for an email
+	if (isLoading || newValue === '' || newValue == oldValue || !g_form.getValue('u_boolean_email')) { 
+		return;
+	}
+	
+	var getEmail = new GlideAjax('GetEmailAddress');
+	// Specify the getEmail method
+	getEmail.addParam('sysparm_name', 'getEmail');
+	// pass the golfers sys_id to the getEmail function
+	getEmail.addParam('sysparm_userID', g_form.getValue('u_golfer'));
+	// send request to the server
+	getEmail.getXML(populateEmailField);
+
+	function populateEmailField(response){
+		// Extract email address form the response
+		var emailFromResponse = response.responseXML.documentElement.getAttribute('answer');
+		// clear any value email field
+		g_form.clearValue('u_email');
+		// populate the u_email field with an email
+		g_form.setValue('u_email', emailFromResponse);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 21:33:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6e4066c97a2111016901c800153aff4</sys_id>
+        <sys_name>Round Populate Email Field Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_script_client_a6e4066c97a2111016901c800153aff4</sys_update_name>
+        <table>x_898924_rounds_round</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

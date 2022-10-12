@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_tee" table="x_898924_rounds_new_round" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_tee</element>
+            <name>x_898924_rounds_new_round</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-10 21:11:22</sys_created_on>
+            <sys_name>u_tee</sys_name>
+            <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+            <sys_update_name>sys_choice_x_898924_rounds_new_round_u_tee</sys_update_name>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

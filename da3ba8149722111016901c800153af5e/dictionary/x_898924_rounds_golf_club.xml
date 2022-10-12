@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7891591097e2111016901c800153afc5" label="Golf Club" max_length="40" name="x_898924_rounds_golf_club" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="driver" display="true" label="Club" mandatory="true" max_length="40" name="u_club_club" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Driver" sequence="0" value="driver"/>
+                <element inactive_on_update="false" label="9 Iron" sequence="1" value="iron_9"/>
+                <element inactive_on_update="false" label="8 Iron" sequence="2" value="iron_8"/>
+                <element inactive_on_update="false" label="7 Iron" sequence="3" value="iron_7"/>
+                <element inactive_on_update="false" label="60 degree" sequence="4" value="degree_60"/>
+                <element inactive_on_update="false" label="56 degree" sequence="5" value="degree_56"/>
+                <element inactive_on_update="false" label="52 degree" sequence="6" value="degree_52"/>
+                <element inactive_on_update="false" label="putter" sequence="7" value="putter"/>
+                <element inactive_on_update="false" label="other" sequence="8" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="callaway" label="Make" mandatory="true" max_length="40" name="u_club_make" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Callaway" sequence="0" value="callaway"/>
+                <element inactive_on_update="false" label="TaylorMade" sequence="1" value="taylormade"/>
+                <element inactive_on_update="false" label="Titleist" sequence="2" value="titleist"/>
+                <element inactive_on_update="false" label="Mizuno" sequence="3" value="mizuno"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_club_model" type="string"/>
+    </element>
+</database>

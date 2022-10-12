@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Clubs</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_898924_rounds.clubs_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 22:58:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28ffc99c97a2111016901c800153aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clubs</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_ui_module_28ffc99c97a2111016901c800153aff8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 22:58:58</sys_updated_on>
+        <table>x_898924_rounds_clubs</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_ui_module_28ffc99c97a2111016901c800153aff8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Clubs</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_898924_rounds.clubs_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-10 22:58:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>28ffc99c97a2111016901c800153aff8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Clubs</sys_name><sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package><sys_policy/><sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope><sys_update_name>sys_ui_module_28ffc99c97a2111016901c800153aff8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-10 22:58:58</sys_updated_on><table>x_898924_rounds_clubs</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1182711869</payload_hash>
+        <record_name>Clubs</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 23:02:06</sys_created_on>
+        <sys_id>2ea0d5dc97a2111016901c800153af5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c4224f560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 23:02:06</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e8ffc99c82a21110a1a79e3b764e00fa</update_guid>
+        <update_guid_history>e8ffc99c82a21110a1a79e3b764e00fa:1620002637,e8ffc99c82a21110a1a79e3b764e00fa:1620002637</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 23:02:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>3769d93ab3f34580a8ce024ec1a89000</sys_id>
+        <sys_metadata>28ffc99c97a2111016901c800153aff8</sys_metadata>
+        <sys_name>Clubs</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_ui_module_28ffc99c97a2111016901c800153aff8</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_28ffc99c97a2111016901c800153aff8">2ea0d5dc97a2111016901c800153af5a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

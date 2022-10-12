@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_club_make" table="x_898924_rounds_golf_club" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_club_make</element>
+            <name>x_898924_rounds_golf_club</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:10:38</sys_created_on>
+            <sys_name>u_club_make</sys_name>
+            <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+            <sys_update_name>sys_choice_x_898924_rounds_golf_club_u_club_make</sys_update_name>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_club_make</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Callaway</label>
+            <language>en</language>
+            <name>x_898924_rounds_golf_club</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>callaway</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_club_make</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TaylorMade</label>
+            <language>en</language>
+            <name>x_898924_rounds_golf_club</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>taylormade</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_club_make</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Titleist</label>
+            <language>en</language>
+            <name>x_898924_rounds_golf_club</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>titleist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_club_make</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mizuno</label>
+            <language>en</language>
+            <name>x_898924_rounds_golf_club</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>mizuno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_club_make</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_898924_rounds_golf_club</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:10:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

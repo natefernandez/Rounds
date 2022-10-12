@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Holes" section_id="d6e795d497e2111016901c800153afdc" sys_domain="global" table="x_898924_rounds_round" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole1_stroke</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>78f725189726111016901c800153af89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole2_stroke</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>fcf725189726111016901c800153af89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole3_stroke</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>70f725189726111016901c800153af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole4_stroke</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>f0f725189726111016901c800153af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole5_stroke</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>74f725189726111016901c800153af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole6_stroke</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>f4f725189726111016901c800153af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole7_stroke</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>78f725189726111016901c800153af8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole8_stroke</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>b0f725189726111016901c800153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hole9_stroke</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>34f725189726111016901c800153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>b4f725189726111016901c800153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_1</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>38f725189726111016901c800153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_2</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>b8f725189726111016901c800153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_3</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>3cf725189726111016901c800153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_4</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>bcf725189726111016901c800153af97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_5</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>30f725189726111016901c800153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_6</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>b0f725189726111016901c800153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_7</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>34f725189726111016901c800153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_8</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>b4f725189726111016901c800153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_teebox_club_9</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-11 00:43:50</sys_created_on>
+            <sys_id>38f725189726111016901c800153af98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Holes" display_value="Holes" name="x_898924_rounds_round" sys_domain="global" view="Default view">d6e795d497e2111016901c800153afdc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-10-11 00:43:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Holes</caption>
+            <header>false</header>
+            <name>x_898924_rounds_round</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-10-10 23:33:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6e795d497e2111016901c800153afdc</sys_id>
+            <sys_name>x_898924_rounds_round</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+            <sys_update_name>sys_ui_section_d6e795d497e2111016901c800153afdc</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

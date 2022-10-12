@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_898924_rounds.round_user" name="x_898924_rounds.round_user">0506dd1497e2111016901c800153afb5</contains>
+        <role display_value="x_898924_rounds.golf_club_user" name="x_898924_rounds.golf_club_user">d7f1191097e2111016901c800153af7d</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 09:39:01</sys_created_on>
+        <sys_id>4e0c68bc972e111016901c800153afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_898924_rounds.round_user.x_898924_rounds.golf_club_user</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_user_role_contains_4e0c68bc972e111016901c800153afb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-12 09:39:01</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rounds">da3ba8149722111016901c800153af5e</application>
+        <file_path/>
+        <instance_id>28b52ef8db975b000e785d00cf9619bc</instance_id>
+        <instance_name>dev64380</instance_name>
+        <name>sys_user_role_contains_4e0c68bc972e111016901c800153afb4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_898924_rounds.round_user" name="x_898924_rounds.round_user">0506dd1497e2111016901c800153afb5</contains><role display_value="x_898924_rounds.golf_club_user" name="x_898924_rounds.golf_club_user">d7f1191097e2111016901c800153af7d</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-12 09:39:01</sys_created_on><sys_id>4e0c68bc972e111016901c800153afb4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_898924_rounds.round_user.x_898924_rounds.golf_club_user</sys_name><sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package><sys_policy/><sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope><sys_update_name>sys_user_role_contains_4e0c68bc972e111016901c800153afb4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-12 09:39:01</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>1975496077</payload_hash>
+        <record_name>x_898924_rounds.round_user.x_898924_rounds.golf_club_user</record_name>
+        <reverted_from/>
+        <source>923ba8149722111016901c800153af60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 09:39:01</sys_created_on>
+        <sys_id>ca0c68bc972e111016901c800153afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183cb8fca700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-12 09:39:01</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>060c68bcee2e1110615fb42f8c12b3ba</update_guid>
+        <update_guid_history>060c68bcee2e1110615fb42f8c12b3ba:1975496077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-12 09:48:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>25984cb2d60e4bef991af121f721bff1</sys_id>
+        <sys_metadata>4e0c68bc972e111016901c800153afb4</sys_metadata>
+        <sys_name>x_898924_rounds.round_user.x_898924_rounds.golf_club_user</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_scope_delete display_value="">970854f60a244ed09ba6a96cc40af900</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_4e0c68bc972e111016901c800153afb4</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_4e0c68bc972e111016901c800153afb4">ca0c68bc972e111016901c800153afba</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

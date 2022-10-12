@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_898924_rounds.GetEmailAddress</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Script Include to return an email address. The calling client-side script passes a sys_id for a User table record.</description>
+        <name>GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+
+	// Query user table and return email address
+	getEmail: function() {
+		// Create a GlideRecord for the User table.
+		var userRecord = new GlideRecord("sys_user");
+		// Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+		userRecord.get(this.getParameter('sysparm_userID'));
+		// Return the email address for the requested record
+		return userRecord.email;
+	},
+	type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-11 20:50:18</sys_created_on>
+        <sys_id>6b6b352497a2111016901c800153aff7</sys_id>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="Rounds" source="x_898924_rounds">da3ba8149722111016901c800153af5e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rounds">da3ba8149722111016901c800153af5e</sys_scope>
+        <sys_update_name>sys_script_include_6b6b352497a2111016901c800153aff7</sys_update_name>
+    </sys_script_include>
+</record_update>
